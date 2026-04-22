@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:3001/api';
+const API = 'https://mar-de-arte-api.onrender.com/api';
 const auth = (token: string) => ({ Authorization: `Bearer ${token}` });
 
 export interface Settings {

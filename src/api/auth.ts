@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:3001/api';
+const API = 'https://mar-de-arte-api.onrender.com/api';
 
 export async function login(username: string, password: string): Promise<string> {
   console.log('axios POST a:', `${API}/auth/login`);

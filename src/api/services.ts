@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Service } from '../types';
 
-const API = 'http://localhost:3001/api';
+const API = 'https://mar-de-arte-api.onrender.com/api';
 
 const auth = (token: string) => ({ Authorization: `Bearer ${token}` });
 
